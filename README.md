@@ -1,5 +1,5 @@
 # Android-LuckyMonkeyPanel
-
+[![](https://jitpack.io/v/luoshihai/XXLucklypanel.svg)](https://jitpack.io/#luoshihai/XXLucklypanel)
 ## 简介 ##
 幸运转盘，类似老虎机的抽奖活动效果。
 
@@ -10,6 +10,21 @@
 - gif比较模糊可以看下视频演示
 
 [视频演示效果](https://github.com/jeanboydev/Android-LuckyMonkeyPanel/blob/master/resources/device-2017-04-26-112438.mp4)
+
+## 添加依赖 ##
+```
+    allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+    
+    dependencies {
+	        compile 'com.github.luoshihai:XXLucklypanel:1.0'
+	}
+```
+
 
 
 ## 使用 ##
@@ -29,11 +44,8 @@ lucky_panel.tryToStop(stayIndex);//stayIndex 为最后停止的位置
 
 如果对你有帮助，请 star 一下，然后 follow 我，给我增加一下分享动力，谢谢！
 
-如果你有什么疑问或者问题，可以提交 issue 和 request，发邮件给我 jeanboy@foxmail.com 。
+如果你有什么疑问或者问题，可以提交 issue 和 request，发邮件给我 1206327668@qq.com 。
 
-或者加入下面的 QQ 群来一起学习交流。
-
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=bbbd62c0860ce7c1a6119030f51df102bb0d3ecc12cf66b4d8887941233c6e78"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="Android技术进阶：386463747" title="Android技术进阶：386463747"></a>
 
 ## License
 
